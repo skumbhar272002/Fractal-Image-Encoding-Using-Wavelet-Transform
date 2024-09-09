@@ -64,15 +64,15 @@ FractalImageCompression/
 ├── README.md            # Project overview and documentation
 ├── LICENSE              # License information
 ├── src/                 # Source code for compression and decompression
-│   ├── fractal_dct_compress.m    # Main compression function
-│   ├── fractal_dct_decompress.m  # Main decompression function
-│   ├── distortion_calculation.m  # Distortion calculation function
-│   ├── mean_domain_calculation.m # Mean domain calculation
-│   ├── partition_no_search.m     # Partitioning without search
-│   └── utils/                    # Utility functions
-│       ├── dct_transform.m       # DCT transformation function
-│       ├── idct_transform.m      # Inverse DCT transformation function
-│       └── normalization_matrix.m# Normalization matrix for quantization
+│   ├── fractal_dct_compress.m     # Main compression function
+│   ├── fractal_dct_decompress.m   # Main decompression function
+│   ├── distortion_calculation.m   # Distortion calculation function
+│   ├── mean_domain_calculation.m  # Mean domain calculation
+│   ├── partition_no_search.m      # Partitioning without search
+│   └── utils/                     # Utility functions
+│       ├── dct_transform.m        # DCT transformation function
+│       ├── idct_transform.m       # Inverse DCT transformation function
+│       └── normalization_matrix.m # Normalization matrix for quantization
 ├── data/
 │   └── bridge.pgm        # Sample image for testing
 └── examples/
