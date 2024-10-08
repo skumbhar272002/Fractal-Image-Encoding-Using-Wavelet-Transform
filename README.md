@@ -6,6 +6,21 @@ This repository provides a MATLAB-based implementation of fractal image compress
 
 Fractal image compression is a technique that uses self-similarity within an image to achieve high compression ratios. This project integrates DCT into the fractal compression process to enhance efficiency and performance, particularly for 256x256 images. The method achieves a compression ratio of 10:1, with a decoding time of 5 seconds, and a Peak Signal-to-Noise Ratio (PSNR) of 32 dB, while also reducing memory usage by 40%.
 
+## Comparative Performance Metrics
+Below are the comparative performance metrics for 256x256 images using various fractal compression techniques:
+
+![Comparative Metrics](https://github.com/skumbhar272002/Fractal-Image-Encoding-Using-Wavelet-Transform/blob/7ee9747ef02544b55e549577d803dcdd641560f3/Comparative%20Performance%20Metrics.png)
+
+**Table 1**. Comparative Performance Metrics of Fractal Image Compression Methods for 256x256 Images in MATLAB.
+
+## Compression Techniques Comparison
+The following table compares different compression techniques applied to the Lena image with thresholds of 0.5 and 0.1:
+
+![Compression Comparison](https://github.com/skumbhar272002/Fractal-Image-Encoding-Using-Wavelet-Transform/blob/7ee9747ef02544b55e549577d803dcdd641560f3/Compression%20Techniques%20Comparison.png)
+
+**Table 2**. Comparing the compression using different techniques on the Lena image for thresholds = 0.5 and 0.1.
+
+
 The repository includes:
 
 - Scripts for encoding and decoding images.
